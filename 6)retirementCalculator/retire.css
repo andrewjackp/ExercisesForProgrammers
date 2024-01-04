@@ -1,0 +1,21 @@
+#currentAge{
+    height: 40px;
+}
+#retiredAge{
+    height: 40px;
+}
+.parent{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 840px){
+    .parent{
+        display: flex;
+        font-family: sans-serif;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,80 @@
+.btn{
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-41%, -60%);
+    display: block;
+    padding: 10px 40px;
+}
+.btnParent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    right: 7%;
+    gap: 10px;
+    align-items: center;
+}
+.parent{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 20%;
+    gap: 10px;
+}
+.dlt-btn{
+    border-radius: 4px;
+    position: absolute;
+    left: 60%;
+    transform: translate(-70%, -60%);
+    display: block;
+    padding: 10px 40px;
+}
+#sentence{
+    padding: 1%;
+    right: 30%;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 830px) {
+    .parent{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        top: 13%;
+        width: 45%;
+        /* left: 17%; */
+    }
+    .btnParent{
+        top: 20%;
+        right: 15%;
+        gap: 10px;
+        padding: 50px;
+    }
+    .btn{
+        border-radius: 4px;
+        position: absolute;
+        top: 21%;
+        left: 35%;
+        display: block;
+        padding: 10px 40px;
+    }
+    .dlt-btn{
+        border-radius: 4px;
+        position: absolute;
+        top: 21%;
+        left: 85%;
+        display: block;
+        padding: 10px 40px;
+    }
+    #sentence {
+        top: 50%;
+        padding: 1%;
+        left: 18%;
+        position: absolute;
+        width: 85%;
+        font-family: sans-serif;
+    }
+  
+}

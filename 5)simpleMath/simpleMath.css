@@ -1,0 +1,97 @@
+.btn1{
+    border-radius: 4px;
+    display: block;
+    padding: 10px 40px;
+}
+.btn2{
+    border-radius: 4px;
+    display: block;
+    padding: 10px 40px;
+}
+.btn3{
+    border-radius: 4px;
+    display: block;
+    padding: 10px 40px;
+}
+.btn4{
+    border-radius: 4px;
+    display: block;
+    padding: 10px 40px;
+}
+.button-row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    top: 10%;
+    gap: 10px;
+    left: 14%;
+}
+.input-form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 15%;
+    left: 24%;
+    gap: 10px;
+}
+.result{
+    position: relative;
+    top: 17%;
+    left: 33%;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 500px){
+
+
+    .button-row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        left: 0%;
+    }
+   
+    /* .btn1{
+        border-radius: 4px;
+        position: relative;
+        left: 21%;
+        transform: translate(-30%, -65%);
+        display: block;
+        padding: 10px 40px;
+    }
+    .btn2{
+        border-radius: 4px;
+        position: relative;
+        left: 28%;
+        transform: translate(-30%, -65%);
+        display: block;
+        padding: 10px 40px;
+    }
+    .btn3{
+        border-radius: 4px;
+        position: relative;
+        left: 35%;
+        transform: translate(-30%, -65%);
+        display: block;
+        padding: 10px 40px;
+    }
+    .btn4{
+        border-radius: 4px;
+        position: relative;
+        left: 42%;
+        transform: translate(-30%, -65%);
+        display: block;
+        padding: 10px 40px;
+    } */
+
+    .input-form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 15%;
+        width: 30%;
+        left: 40%;
+        gap: 10px;
+    }
+}

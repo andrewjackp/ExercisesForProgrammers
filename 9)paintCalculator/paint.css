@@ -1,0 +1,21 @@
+#paintBtn{
+    display: block;
+    padding: 10px 30px;
+}
+button:focus{
+    background-color:white;
+    }
+button:hover {
+    background-color: rgb(178, 178, 10);
+    opacity: .5;
+    padding: 10px 40px;
+  }
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    font-family: sans-serif;
+}

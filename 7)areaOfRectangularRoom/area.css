@@ -1,0 +1,12 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    top: 5%;
+    position: relative;
+}
+#areaBtn{
+    border-radius: 4px;
+  padding: 10px 32px;
+}

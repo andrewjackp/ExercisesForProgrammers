@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="area.css">
+    <script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="area.js"></script>
+    <title>Area of a Rectangular Room</title>
+</head>
+<body>
+    <script>
+        let typeSplit = new SplitType('.paraParent', {
+        types: 'lines, words, chars',
+        tagName: 'span'
+      })
+      
+      gsap.from('.paraParent', {
+        y: '100%',
+        opacity: 0,
+        duration: 0.5,
+        ease: 'power1.out',
+        stagger: 0.1,
+        
+      })
+    </script>
+    <div class="parent">
+        <form>
+            <input id="length" type="text" placeholder="length" />
+            <input id="width" type="text" placeholder="width"/>
+        </form>
+        <button id="areaBtn">Get Area</button>
+        <div class="paraParent" style="font-family: sans-serif;">
+        <p id="askLength"></p>
+        <p id="askWidth"></p>
+        <p id="squareFeet"></p>
+        <p id="squareMeters"></p>
+    </div>
+  
+</div>
+</body>
+</html>

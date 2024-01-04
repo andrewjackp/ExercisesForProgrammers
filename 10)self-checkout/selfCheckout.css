@@ -1,0 +1,19 @@
+.parent-checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-family: sans-serif;
+}
+.shopForm{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#sumBtn{
+    display: block;
+    width: 10em;
+    padding: 10px 30px;
+    text-align: center;
+}
