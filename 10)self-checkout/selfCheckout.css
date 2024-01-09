@@ -4,6 +4,8 @@
     gap: 10px;
     align-items: center;
     font-family: sans-serif;
+    top: 5%;
+    position: relative;
 }
 .shopForm{
     width: 170px;

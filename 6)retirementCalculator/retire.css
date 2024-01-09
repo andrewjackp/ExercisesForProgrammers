@@ -9,6 +9,9 @@
     font-family: sans-serif;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 3%;
 }
 @media only screen and (max-width: 840px){
     .parent{

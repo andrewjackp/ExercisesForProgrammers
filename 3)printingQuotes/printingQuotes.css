@@ -29,30 +29,43 @@ button:hover {
   display: flex;
     flex-direction: column;
     align-items: center;
+    top: 2%;
+    gap: 10px;
+    position: relative;
 }
 @media only screen and (max-width: 830px) {
   #charInput{
-    top:25%;
+    top: 7em;
     position: absolute;
   }
   .parent{
     display: flex;
     flex-direction: row;
     align-items: center;
+    top: 5%;
+    gap: 10px;
+    position: relative;
   }
   .form{
     font-family: sans-serif;
     flex-direction: column;
     position: absolute;
     display: flex;
-    top: 4%;
+    top: 5%;
     left: 28%;
+    gap: 5px;
+  }
+  #author{
+    height: 50px;
+  }
+  #quote{
+    height: 50px;
   }
   #quoteBtn{
     display: block;
     padding: 15px 32px;
     border-radius: 4px;
-    top: 16%;
+    top: 130px;
     left: 31%;
     position: absolute;
   }

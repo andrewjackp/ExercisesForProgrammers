@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count num of chars</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/navbar/home.css">
+    <include src="/navbar/index.html"></include>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
     <div style="margin: 4rem auto; width: 16rem">
-        <textarea rows="5" style="border: 1px solid #cbd5e0; width: 100%" maxlength="200" id="message" placeholder="please type more than 0 char"></textarea>
+        <textarea rows="5" style="border: 1px solid #cbd5e0; width: 100%; font-family: sans-serif;" maxlength="200" id="message" placeholder="please type more than 0 char"></textarea>
         <div style="margin-top: 0.25rem; text-align: right; font-family: sans-serif"; id="counter">0</div>
         <p id="paragraph"></p>
         <p id="charInput"></p>

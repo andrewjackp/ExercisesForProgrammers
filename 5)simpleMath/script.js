@@ -72,5 +72,18 @@ divBtn.addEventListener("click", divNums, false);
             y: 800
           }, console.log("gsap"));
     }
+    async function includeHTML() {
+        const includes = document.getElementsByTagName('include');
+        [].forEach.call(includes, include => {
+          let filePath = include.getAttribute('src');
+          fetch(filePath).then((file) => {
+            file.text().then((content) => {
+              include.insertAdjacentHTML('afterend', content);
+              include.remove();
+            });
+          });
+        });
+      };
     
+      includeHTML();
 })
