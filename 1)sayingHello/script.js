@@ -1,20 +1,27 @@
+document.addEventListener('DOMContentLoaded', function () {
 
-function askName(){
-    let name = prompt("Please enter your name", "");
-    let greet = "hello ";
-    let secondGreet = name + ", nice to meet you!"
-    
+const nameForm = document.getElementById("nameForm");
 
-    let para = document.getElementById("paragraph");
-    if(name != null){
-        para.innerHTML = greet + secondGreet;
-        document.getElementById("button-test").style.backgroundColor = "teal";
-    }
-    gsap.from("#paragraph", { 
-        x: 200,
-        y: 100
-      });
-}
+nameForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let name = document.getElementById("name").value;
+  let greet = "hello ";
+  let secondGreet = name + ", nice to meet you!"
+  
+  console.log(name);
+
+  if(name = "" || name == 0){
+    document.querySelector("p").innerHTML = greet;
+  } else {
+    document.querySelector("p").innerHTML = greet + secondGreet;
+      document.querySelector(".ask-button").style.backgroundColor = "teal";
+  }
+  gsap.from("p", { 
+      x: 200,
+      y: 100
+    });
+})
+
 async function includeHTML() {
     const includes = document.getElementsByTagName('include');
     [].forEach.call(includes, include => {
@@ -29,3 +36,4 @@ async function includeHTML() {
   };
 
   includeHTML();
+})

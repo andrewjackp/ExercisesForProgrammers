@@ -10,7 +10,7 @@ p {
   flex-direction: flex;
   gap: 10px;
 }
-#button-test{
+.ask-button{
     border-radius: 4px;
     top: 10%;
     position: relative;

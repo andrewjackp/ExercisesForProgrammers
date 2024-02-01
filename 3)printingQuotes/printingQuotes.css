@@ -4,7 +4,7 @@ p {
     text-align: center;
   }
 
-#button-test{
+.button-test{
     border-radius: 4px;
     position: absolute;
     top: 30%;
@@ -13,7 +13,7 @@ p {
     display: block;
     padding: 15px 32px;
 }
-#quoteBtn{
+.quoteBtn{
   display: block;
   padding: 15px 32px;
   border-radius: 4px;
@@ -34,7 +34,7 @@ button:hover {
     position: relative;
 }
 @media only screen and (max-width: 830px) {
-  #charInput{
+  .charInput{
     top: 7em;
     position: absolute;
   }
@@ -55,13 +55,13 @@ button:hover {
     left: 28%;
     gap: 5px;
   }
-  #author{
+  .author{
     height: 50px;
   }
-  #quote{
+  .quote{
     height: 50px;
   }
-  #quoteBtn{
+  .quoteBtn{
     display: block;
     padding: 15px 32px;
     border-radius: 4px;
